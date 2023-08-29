@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Miguel\\Programación\\PRUEBAS\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj": {}
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj": {}
   },
   "projects": {
-    "F:\\Miguel\\Programación\\PRUEBAS\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj": {
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Miguel\\Programación\\PRUEBAS\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
+        "projectUniqueName": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
         "projectName": "MiddlewareExample",
-        "projectPath": "F:\\Miguel\\Programación\\PRUEBAS\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
+        "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\MiddlewareExample.csproj",
         "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
-        "outputPath": "F:\\Miguel\\Programación\\PRUEBAS\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\obj\\",
+        "outputPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\Middleware Example\\MiddlewareExample\\MiddlewareExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

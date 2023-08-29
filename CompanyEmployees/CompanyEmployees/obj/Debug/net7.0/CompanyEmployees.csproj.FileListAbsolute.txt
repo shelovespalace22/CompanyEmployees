@@ -31,3 +31,10 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmploye
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\CompanyEmployees.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\CompanyEmployees.genruntimeconfig.cache
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\ref\CompanyEmployees.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\NLog.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\LoggerService.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\LoggerService.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\nlog.config

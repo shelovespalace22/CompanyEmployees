@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entiti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{A1388420-61A1-4DBE-B978-FDE9268CBB5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{839E8FCE-68A1-4986-A69B-6B78F52C8932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{839E8FCE-68A1-4986-A69B-6B78F52C8932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{4439F874-6A3E-4FFA-A287-617755A89918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{4439F874-6A3E-4FFA-A287-617755A89918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Presentation", "CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj", "{A9C92FBD-F8A6-4319-98AD-3A5C2FC0A45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C0651527-FEC6-42F8-BA44-3053A40F30FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{4439F874-6A3E-4FFA-A287-617755A89918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4439F874-6A3E-4FFA-A287-617755A89918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4439F874-6A3E-4FFA-A287-617755A89918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C92FBD-F8A6-4319-98AD-3A5C2FC0A45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C92FBD-F8A6-4319-98AD-3A5C2FC0A45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C92FBD-F8A6-4319-98AD-3A5C2FC0A45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C92FBD-F8A6-4319-98AD-3A5C2FC0A45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0651527-FEC6-42F8-BA44-3053A40F30FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0651527-FEC6-42F8-BA44-3053A40F30FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0651527-FEC6-42F8-BA44-3053A40F30FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0651527-FEC6-42F8-BA44-3053A40F30FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

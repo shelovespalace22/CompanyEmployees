@@ -89,3 +89,9 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmploye
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Service.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Service.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Service.Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\CompanyEmployees.Presentation.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\CompanyEmployees.Presentation.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Shared.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Shared.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\AutoMapper.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

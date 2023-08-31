@@ -15,3 +15,7 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\De
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\refint\Service.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\ref\Service.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.pdb

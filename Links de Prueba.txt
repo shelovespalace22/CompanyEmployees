@@ -1,0 +1,14 @@
+Links de Postman CompanyEmployees
+
+
+1. Todas las Compañias: https://localhost:7184/api/companies
+2. Todos los Empleados: 
+3. Una Compañia por ID:
+4. Un Empleado por ID:
+5. Empleados de una sola Compañia:
+6. Error 404 del link anterior:
+7. Compañia y Empleado especificos: 
+8. Empleado y Compañia especificos:
+9. Error 404 del anterior (Compañia y Empleado):
+10. Error 404 del anterior (Empleado y Compañia):
+11. Negociación contenido XML

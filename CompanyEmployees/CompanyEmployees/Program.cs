@@ -34,12 +34,12 @@ app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsProduction())
     app.UseHsts();
 
-//if (app.Environment.IsDevelopment()) 
-//    app.UseDeveloperExceptionPage(); 
-//else 
+//if (app.Environment.IsDevelopment())
+//    app.UseDeveloperExceptionPage();
+//else
 //    app.UseHsts();
 
-//// Configure the HTTP request pipeline.
+//Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
 //    app.UseSwagger();

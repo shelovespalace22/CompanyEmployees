@@ -10,7 +10,7 @@ namespace Entities.Models
 {
     public class Employee
     {
-        [Column("Empl o yeeId")] 
+        [Column("EmployeeId")] 
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Employee name is a required field.")]

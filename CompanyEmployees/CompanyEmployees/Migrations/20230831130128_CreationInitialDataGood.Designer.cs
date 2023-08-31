@@ -12,8 +12,8 @@ using Repository;
 namespace CompanyEmployees.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230829194332_InitialData")]
-    partial class InitialData
+    [Migration("20230831130128_CreationInitialDataGood")]
+    partial class CreationInitialDataGood
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -71,7 +71,7 @@ namespace CompanyEmployees.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("Empl o yeeId");
+                        .HasColumnName("EmployeeId");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");

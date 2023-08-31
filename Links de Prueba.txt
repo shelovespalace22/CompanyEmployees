@@ -1,7 +1,7 @@
 Links de Postman CompanyEmployees
 
 
-1. Todas las Compañias: https://localhost:7208/api/companies
+1. Todas las Compañias: https://localhost:7184/api/companies
 2. Todos los Empleados: 
 3. Una Compañia por ID:
 4. Un Empleado por ID:

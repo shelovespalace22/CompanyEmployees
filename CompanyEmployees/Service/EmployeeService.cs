@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Contracts;
 using Service.Contracts;
+using Shared.DataTransferObjects;
 
 namespace Service
 {
@@ -22,6 +23,15 @@ namespace Service
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
+        }
+
+        public IEnumerable<EmployeeDto> GetAllEmployees(bool trackChanges)
+        {
+            var employees = _repository.Employee.GetAllEmployees(trackChanges);
+
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+
+            return employeesDto;
         }
     }
 }

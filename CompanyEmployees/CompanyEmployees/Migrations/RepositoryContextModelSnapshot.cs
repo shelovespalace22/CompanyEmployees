@@ -68,7 +68,7 @@ namespace CompanyEmployees.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("Empl o yeeId");
+                        .HasColumnName("EmployeeId");
 
                     b.Property<int>("Age")
                         .HasColumnType("int");

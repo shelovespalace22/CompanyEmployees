@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {}
+  },
+  "projects": {
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectName": "CompanyEmployees.Presentation",
+        "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
+        "projectName": "Service.Contracts",
+        "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\Service.Contracts.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Service.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

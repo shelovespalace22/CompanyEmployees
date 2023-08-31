@@ -9,3 +9,7 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contra
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\obj\Debug\net7.0\refint\Service.Contracts.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\obj\Debug\net7.0\Service.Contracts.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\obj\Debug\net7.0\ref\Service.Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\bin\Debug\net7.0\Entities.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\bin\Debug\net7.0\Entities.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.AssemblyReference.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service.Contracts\obj\Debug\net7.0\Service.Contracts.csproj.CopyComplete

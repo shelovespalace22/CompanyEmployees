@@ -31,7 +31,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

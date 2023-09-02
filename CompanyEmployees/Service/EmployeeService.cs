@@ -33,5 +33,16 @@ namespace Service
 
             return employeesDto;
         }
+
+        public EmployeeDto GetEmployee(Guid id, bool trackChanges)
+        {
+            var employee = _repository.Employee.GetEmployee(id, trackChanges);
+
+            //Check if the company is null
+
+            var employeeDto = _mapper.Map<EmployeeDto>(employee);
+
+            return employeeDto;
+        }
     }
 }

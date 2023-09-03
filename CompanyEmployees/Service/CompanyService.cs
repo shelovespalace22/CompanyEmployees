@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using AutoMapper.Internal;
 using Contracts;
 using Entities.Exceptions;
 using Entities.Models;
 using Service.Contracts;
 using Shared.DataTransferObjects;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Service
 {
@@ -57,8 +59,43 @@ namespace Service
             _repository.Save();
             
             var companyToReturn = _mapper.Map<CompanyDto>(companyEntity);
+            return companyToReturn;
+        }
+
+        public IEnumerable<CompanyDto> GetByIds(IEnumerable<Guid> ids, bool trackChanges) 
+        {
+            if (ids is null) 
+                throw new IdParametersBadRequestException();
             
-            return companyToReturn; 
+            var companyEntities = _repository.Company.GetByIds(ids, trackChanges);
+            
+            if (ids.Count() != companyEntities.Count()) 
+                throw new CollectionByIdsBadRequestException();
+            
+            var companiesToReturn = _mapper.Map<IEnumerable<CompanyDto>>(companyEntities);
+            
+            return companiesToReturn; 
+        }
+
+        public (IEnumerable<CompanyDto> companies, string ids) CreateCompanyCollection(IEnumerable<CompanyForCreationDto> companyCollection) 
+        {
+            if (companyCollection is null) 
+                throw new CompanyCollectionBadRequest(); 
+            
+            var companyEntities = _mapper.Map<IEnumerable<Company>>(companyCollection);
+            
+            foreach (var company in companyEntities) 
+            {
+                _repository.Company.CreateCompany(company); 
+            } 
+            
+            _repository.Save();
+            
+            var companyCollectionToReturn = _mapper.Map<IEnumerable<CompanyDto>>(companyEntities);
+            
+            var ids = string.Join(",", companyCollectionToReturn.Select(c => c.Id));
+            
+            return (companies: companyCollectionToReturn, ids: ids);
         }
     }
 }

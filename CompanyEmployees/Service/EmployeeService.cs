@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -75,8 +76,25 @@ namespace Service
                 throw new EmployeeNotFoundException(id);
             
             var employee = _mapper.Map<EmployeeDto>(employeeDb);
+            return employee;
+        }
+
+        public EmployeeDto CreateEmployeeForCompany(Guid companyId, EmployeeForCreationDto employeeForCreation, bool trackChanges) 
+        {
+            var company = _repository.Company.GetCompany(companyId, trackChanges);
             
-            return employee; 
+            if (company is null)
+                throw new CompanyNotFoundException(companyId);
+            
+            var employeeEntity = _mapper.Map<Employee>(employeeForCreation);
+            
+            _repository.Employee.CreateEmployeeForCompany(companyId, employeeEntity);
+            
+            _repository.Save();
+            
+            var employeeToReturn = _mapper.Map<EmployeeDto>(employeeEntity);
+            
+            return employeeToReturn; 
         }
     }
 }

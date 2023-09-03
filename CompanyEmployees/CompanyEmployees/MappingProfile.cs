@@ -16,7 +16,7 @@ namespace CompanyEmployees
 
             CreateMap<CompanyForCreationDto, Company>(); //Se agregó esta linea
 
-            CreateMap<Company, CompanyForCreationDto>();
+            CreateMap<EmployeeForCreationDto, Employee>();
         }
     }
 }

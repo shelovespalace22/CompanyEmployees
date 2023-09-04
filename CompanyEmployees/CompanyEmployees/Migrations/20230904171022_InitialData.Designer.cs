@@ -12,8 +12,8 @@ using Repository;
 namespace CompanyEmployees.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230831130128_CreationInitialDataGood")]
-    partial class CreationInitialDataGood
+    [Migration("20230904171022_InitialData")]
+    partial class InitialData
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

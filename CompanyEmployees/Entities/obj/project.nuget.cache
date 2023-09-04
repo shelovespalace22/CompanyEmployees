@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lAIllT4nZUCTB7ABxAXmXNglIXLYZ4vZzeOREg+nVc0KvPIxyGjFUNe58GSUBpOT6e5bh+SydrcRo0qE9QLr0Q==",
+  "dgSpecHash": "ltFrg7vKeOngUSGzA4eKUbXfkRjHopEtB0zYWyk1pd+2aeZBCUhtUIBcg19trdEpglp1YhfCt/efxl/zcPIcLQ==",
   "success": true,
-  "projectFilePath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

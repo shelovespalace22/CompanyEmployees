@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MI PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Aprendiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Contracts\\Contracts.csproj",
-      "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
-      "outputPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Contracts\\obj\\",
+      "projectPath": "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Contracts\\Contracts.csproj",
+      "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,14 +52,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj": {
-              "projectPath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Entities\\Entities.csproj"
+            "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Documents\\Miguel\\Proyecto\\CompanyEmployees\\CompanyEmployees\\Entities\\Entities.csproj"
             }
           }
         }
@@ -89,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

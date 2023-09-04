@@ -19,3 +19,24 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\De
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.deps.json
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Entities.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Shared.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Entities.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Shared.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\refint\Service.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\ref\Service.dll

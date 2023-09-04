@@ -15,3 +15,20 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfo.cs
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CopyComplete
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.pdb
+C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll

@@ -14,13 +14,13 @@ namespace CompanyEmployees
 
             CreateMap<Employee, EmployeeDto>();
 
-            CreateMap<CompanyForCreationDto, Company>(); //Se agregó esta linea
+            //CreateMap<CompanyForCreationDto, Company>(); //Se agregó esta linea
 
-            CreateMap<EmployeeForCreationDto, Employee>();
+            //CreateMap<EmployeeForCreationDto, Employee>();
 
-            CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
+            //CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
 
-            CreateMap<CompanyForUpdateDto, Company>();
+            //CreateMap<CompanyForUpdateDto, Company>();
         }
     }
 }

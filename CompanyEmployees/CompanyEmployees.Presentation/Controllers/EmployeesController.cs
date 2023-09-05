@@ -19,23 +19,26 @@ namespace CompanyEmployees.Presentation.Controllers
         public EmployeesController(IServiceManager service) =>
             _service = service;
 
-        //[HttpGet]
-        //public IActionResult GetEmployees()
-        //{
+        /* Obtener todos los empleados */
+        [HttpGet("/api/employees")]
+        public IActionResult GetEmployees()
+        {
 
-        //    var allEmployees = _service.EmployeeService.GetAllEmployees(trackChanges: false);
+            var allEmployees = _service.EmployeeService.GetAllEmployees(trackChanges: false);
 
-        //    return Ok(allEmployees);
-        //}
+            return Ok(allEmployees);
+        }
 
-        //[HttpGet("{id:guid}")]
-        //public IActionResult GetEmployee(Guid id)
-        //{
-        //    var employee = _service.EmployeeService.GetEmployee(id, trackChanges: false);
+        /* Obtener un empleado por Id */
+        [HttpGet("/api/employees/{id:guid}")]
+        public IActionResult GetEmployee(Guid id)
+        {
+            var employee = _service.EmployeeService.GetEmployee(id, trackChanges: false);
 
-        //    return Ok(employee);
-        //}
+            return Ok(employee);
+        }
 
+        /* Obtener todos los empleados de una compañia */
         [HttpGet]
         public IActionResult GetEmployeesForCompany(Guid companyId)
         {
@@ -44,14 +47,16 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(employees);
         }
 
+        /* Obtener un empleado especifico por compañia */
         [HttpGet("{id:guid}", Name = "GetEmployeeForCompany")]
         public IActionResult GetEmployeeForCompany(Guid companyId, Guid id)
         {
-            var employee = _service.EmployeeService.GetEmployee(companyId, id, trackChanges: false);
+            var employee = _service.EmployeeService.GetEmployeeByCompany(companyId, id, trackChanges: false);
 
             return Ok(employee);
         }
 
+        /* Crear un empleado */
         [HttpPost]
         public IActionResult CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto employee)
         {
@@ -63,6 +68,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return CreatedAtRoute("GetEmployeeForCompany", new { companyId, id = employeeToReturn.Id }, employeeToReturn);
         }
 
+        /* Eliminar un empleado */
         [HttpDelete("{id:guid}")]
         public IActionResult DeleteEmployeeForCompany(Guid companyId, Guid id)
         {
@@ -71,6 +77,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return NoContent();
         }
 
+        /* Actualizar empleado con PUT */
         [HttpPut("{id:guid}")]
         public IActionResult UpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] EmployeeForUpdateDto employee)
         {
@@ -82,6 +89,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return NoContent();
         }
 
+        /* Actualizar empleado por PATCH */
         [HttpPatch("{id:guid}")]
         public IActionResult PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] JsonPatchDocument<EmployeeForUpdateDto> patchDoc)
         {

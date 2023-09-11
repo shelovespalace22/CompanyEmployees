@@ -32,7 +32,8 @@ namespace Service.Contracts
         void UpdateEmployeeForCompany(Guid companyId, Guid id, EmployeeForUpdateDto employeeForUpdate, bool compTrackChanges, bool empTrackChanges);
 
         /* Obtener empleado para PATCH */
-        (EmployeeForUpdateDto employeeToPatch, Employee employeeEntity) GetEmployeeForPatch(Guid companyId, Guid id, bool compTrackChanges, bool empTrackChanges);
+        (EmployeeForUpdateDto employeeToPatch, Employee employeeEntity) 
+            GetEmployeeForPatch(Guid companyId, Guid id, bool compTrackChanges, bool empTrackChanges);
 
         /* Actualizar empleado por PATCH */
         void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity);

@@ -1,14 +1,30 @@
 Links de Postman CompanyEmployees
 
 
-1. Todas las Compañias: https://localhost:7184/api/companies
-2. Todos los Empleados: https://localhost:7184/api/employees 
-3. Una Compañia por ID:
-4. Un Empleado por ID:
-5. Empleados de una sola Compañia:
-6. Error 404 del link anterior:
-7. Compañia y Empleado especificos: 
-8. Empleado y Compañia especificos:
-9. Error 404 del anterior (Compañia y Empleado):
-10. Error 404 del anterior (Empleado y Compañia):
-11. Negociación contenido XML
+Company:
+
+1. https://localhost:7184/api/companies
+2. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870
+3. https://localhost:7184/api/companies/collection/(964906A7-E247-49CE-E0A7-08DBB2BDC0B5,86FEB8CD-E89F-43E5-E0A8-08DBB2BDC0B5)
+4. https://localhost:7184/api/companies (POST)
+5. https://localhost:7184/api/companies (POST)
+6. https://localhost:7184/api/companies/collection (POST collection)
+7. https://localhost:7184/api/companies/86FEB8CD-E89F-43E5-E0A8-08DBB2BDC0B5
+8. https://localhost:7184/api/companies/BFAD95D0-490C-4471-E0AA-08DBB2BDC0B5
+	
+	Company Errores:
+		
+	1. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991871
+	2. https://localhost:7184/api/companies/collection/(964906A7-E247-49CE-E0A7-08DBB2BDC0B5,86FEB8CD-E89F-45E5-E0A8-08DBB2BDC0B5)
+	3. https://localhost:7184/api/companies/BFAD95D0-490C-4471-E0AA-08DBB2BDC0B6
+
+Employe:
+
+1. https://localhost:7184/api/employees
+2. https://localhost:7184/api/employees/ffe9f3a7-bc34-406b-cc0d-08dbb2be64ff
+3. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees
+4. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees/86dba8c0-d178-41e7-938c-ed49778fb52a
+5. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees
+6. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees/eec23e37-1f97-4cc8-946a-08dbb2c4af00
+7. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees/eec23e37-1f97-4cc8-946a-08dbb2c4af00
+8. https://localhost:7184/api/companies/c9d4c053-49b6-410c-bc78-2d54a9991870/employees/0f5e5d30-0ed3-4eb2-94a1-08dbacaac74f

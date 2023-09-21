@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.Models;
 using Shared.DataTransferObjects;
 
 namespace Service.Contracts
@@ -23,5 +24,10 @@ namespace Service.Contracts
         void DeleteCompany(Guid companyId, bool trackChanges);
 
         void UpdateCompany(Guid companyid, CompanyForUpdateDto companyForUpdate, bool trackChanges);
+
+        (CompanyForUpdateDto companyToPatch, Company companyEntity) GetCompanyForPatch
+            (Guid id, bool trackChanges);
+        
+        void SaveChangesForPatch(CompanyForUpdateDto companyToPatch, Company companyEntity);
     }
 }

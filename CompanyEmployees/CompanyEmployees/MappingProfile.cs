@@ -14,7 +14,7 @@ namespace CompanyEmployees
 
             CreateMap<CompanyForCreationDto, Company>(); //Se agregó esta linea
 
-            CreateMap<CompanyForUpdateDto, Company>();
+            CreateMap<CompanyForUpdateDto, Company>().ReverseMap();
 
 
 

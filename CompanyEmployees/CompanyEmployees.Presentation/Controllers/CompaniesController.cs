@@ -81,5 +81,22 @@ namespace CompanyEmployees.Presentation.Controllers
             
             return NoContent(); 
         }
+
+        /* Actualizar compañia por PATCH */
+
+        [HttpPatch("{id:guid}")]
+        public IActionResult PartiallyUpdateCompany(Guid id, [FromBody] JsonPatchDocument<CompanyForUpdateDto> patchDoc)
+        {
+            if (patchDoc is null)
+                return BadRequest("patchDoc object sent from client is null.");
+
+            var result = _service.CompanyService.GetCompanyForPatch(id, trackChanges: true);
+
+            patchDoc.ApplyTo(result.companyToPatch);
+
+            _service.CompanyService.SaveChangesForPatch(result.companyToPatch, result.companyEntity);
+
+            return NoContent();
+        }
     }
 }

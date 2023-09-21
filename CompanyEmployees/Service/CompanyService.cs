@@ -121,5 +121,26 @@ namespace Service
             
             _repository.Save();
         }
+
+        /* Obtener compañia para PATCH */
+        public (CompanyForUpdateDto companyToPatch, Company companyEntity) GetCompanyForPatch(Guid id, bool trackChanges)
+        {
+            var companyEntity = _repository.Company.GetCompany(id, trackChanges);
+
+            if (companyEntity is null)
+                throw new CompanyNotFoundException(id);
+
+            var companyToPatch = _mapper.Map<CompanyForUpdateDto>(companyEntity);
+
+            return (companyToPatch, companyEntity);
+        }
+
+        /* Actualizar compañia por PATCH */
+        public void SaveChangesForPatch(CompanyForUpdateDto companyToPatch, Company companyEntity)
+        {
+            _mapper.Map(companyToPatch, companyEntity);
+
+            _repository.Save();
+        }
     }
 }

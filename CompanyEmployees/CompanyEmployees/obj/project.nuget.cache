@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nWu9olRLbesuvmR3Z60U22+j/hgH+aofP6GnR8uGiH2TxQ3ZwgtWnIYQ8VxUeS/3R7UnqzfS5j9qZM4NfKOz0A==",
+  "dgSpecHash": "mI2xc0/CLGJ+npzm11AZD2JeJ0PgeLgRu+cKLBZrJXYs5o59ZxTiLAsBqafbAfN4wAsg2rOP2KSjsG5hUX3yIA==",
   "success": true,
   "projectFilePath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -19,10 +19,10 @@
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.10\\microsoft.aspnetcore.jsonpatch.7.0.10.nupkg.sha512",
+    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.11\\microsoft.aspnetcore.jsonpatch.7.0.11.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
-    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.10.nupkg.sha512",
+    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.11.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",

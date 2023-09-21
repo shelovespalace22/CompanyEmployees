@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using CompanyEmployees.Presentation.ModelBinders;
+using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
@@ -42,9 +45,17 @@ namespace CompanyEmployees.Presentation.Controllers
         {
             if (company is null) 
                 return BadRequest("CompanyForCreationDto object is null");
-            
+
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+            ModelState.ClearValidationState(nameof(CompanyForCreationDto));
+
+            if (!TryValidateModel(company, nameof(CompanyForCreationDto)))
+                return UnprocessableEntity(ModelState);
+
             var createdCompany = _service.CompanyService.CreateCompany(company);
-            
+
             return CreatedAtRoute("CompanyById", new { id = createdCompany.Id }, createdCompany);
         }
 
@@ -75,8 +86,12 @@ namespace CompanyEmployees.Presentation.Controllers
         [HttpPut("{id:guid}")]
         public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company) 
         {
-            if (company is null) return BadRequest("CompanyForUpdateDto object is null");
-            
+            if (company is null) 
+                return BadRequest("CompanyForUpdateDto object is null");
+
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
             _service.CompanyService.UpdateCompany(id, company, trackChanges: true);
             
             return NoContent(); 
@@ -92,10 +107,14 @@ namespace CompanyEmployees.Presentation.Controllers
 
             var result = _service.CompanyService.GetCompanyForPatch(id, trackChanges: true);
 
-            patchDoc.ApplyTo(result.companyToPatch);
+            patchDoc.ApplyTo(result.companyToPatch, ModelState);
+
+            TryValidateModel(result.companyToPatch);
+
+            if (!ModelState.IsValid) 
+                return UnprocessableEntity(ModelState);
 
             _service.CompanyService.SaveChangesForPatch(result.companyToPatch, result.companyEntity);
-
             return NoContent();
         }
     }

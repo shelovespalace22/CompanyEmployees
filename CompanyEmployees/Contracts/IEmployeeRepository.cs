@@ -10,16 +10,23 @@ namespace Contracts
     public interface IEmployeeRepository
     {
         /* Obtener todos los empleados */
-        IEnumerable<Employee> GetAllEmployees(bool trackChanges);
+        Task<IEnumerable<Employee>> GetAllEmployeesAsync(bool trackChanges);
+        //IEnumerable<Employee> GetAllEmployees(bool trackChanges);
+
 
         /* Obtener empleado por Id */
-        Employee GetEmployee(Guid employeeId, bool trackChanges);
+        Task<Employee> GetEmployeeAsync(Guid employeeId, bool trackChanges);
+        //Employee GetEmployee(Guid employeeId, bool trackChanges);
+
 
         /* Obtener todos los empleados de una compañia */
-        IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
+        Task<IEnumerable<Employee>> GetEmployeesAsync(Guid companyId, bool trackChanges);
+        //IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
+
 
         /* Obtener un empleado especifico por compañia */
-        Employee GetEmployeeByCompany(Guid companyId, Guid id, bool trackChanges);
+        Task<Employee> GetEmployeeByCompanyAsync(Guid companyId, Guid id, bool trackChanges);
+        //Employee GetEmployeeByCompany(Guid companyId, Guid id, bool trackChanges);
 
         /* Crear empleado */
         void CreateEmployeeForCompany(Guid companyId, Employee employee);

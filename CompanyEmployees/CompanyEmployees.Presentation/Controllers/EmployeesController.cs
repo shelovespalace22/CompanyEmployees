@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CompanyEmployees.Presentation.ActionFilters;
 using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -59,18 +60,19 @@ namespace CompanyEmployees.Presentation.Controllers
 
         /* Crear un empleado */
         [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateEmployeeForCompany(Guid companyId, [FromBody] EmployeeForCreationDto employee)
         {
-            if (employee is null)
-                return BadRequest("EmployeeForCreationDto object is null");
+            //if (employee is null)
+            //    return BadRequest("EmployeeForCreationDto object is null");
 
-            if (!ModelState.IsValid) 
-                return UnprocessableEntity(ModelState);
+            //if (!ModelState.IsValid) 
+            //    return UnprocessableEntity(ModelState);
 
-            ModelState.ClearValidationState(nameof(EmployeeForCreationDto));
+            //ModelState.ClearValidationState(nameof(EmployeeForCreationDto));
 
-            if (!TryValidateModel(employee, nameof(EmployeeForCreationDto)))
-                return UnprocessableEntity(ModelState);
+            //if (!TryValidateModel(employee, nameof(EmployeeForCreationDto)))
+            //    return UnprocessableEntity(ModelState);
 
             var employeeToReturn = await _service.EmployeeService.CreateEmployeeForCompanyAsync(companyId, employee, trackChanges: false);
 
@@ -88,13 +90,14 @@ namespace CompanyEmployees.Presentation.Controllers
 
         /* Actualizar empleado con PUT */
         [HttpPut("{id:guid}")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> UpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] EmployeeForUpdateDto employee)
         {
-            if (employee is null)
-                return BadRequest("EmployeeForUpdateDto object is null");
+            //if (employee is null)
+            //    return BadRequest("EmployeeForUpdateDto object is null");
 
-            if (!ModelState.IsValid) 
-                return UnprocessableEntity(ModelState);
+            //if (!ModelState.IsValid) 
+            //    return UnprocessableEntity(ModelState);
 
             await _service.EmployeeService.UpdateEmployeeForCompanyAsync(companyId, id, employee, compTrackChanges: false, empTrackChanges: true);
 

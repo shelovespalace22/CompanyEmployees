@@ -4,10 +4,12 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -40,20 +42,10 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(company); 
         }
 
-        [HttpPost] 
+        [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company) 
         {
-            if (company is null) 
-                return BadRequest("CompanyForCreationDto object is null");
-
-            if (!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-
-            ModelState.ClearValidationState(nameof(CompanyForCreationDto));
-
-            if (!TryValidateModel(company, nameof(CompanyForCreationDto)))
-                return UnprocessableEntity(ModelState);
-
             var createdCompany = await _service.CompanyService.CreateCompanyAsync(company);
 
             return CreatedAtRoute("CompanyById", new { id = createdCompany.Id }, createdCompany);
@@ -84,14 +76,9 @@ namespace CompanyEmployees.Presentation.Controllers
         }
 
         [HttpPut("{id:guid}")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company) 
         {
-            if (company is null) 
-                return BadRequest("CompanyForUpdateDto object is null");
-
-            if (!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
-
             await _service.CompanyService.UpdateCompanyAsync(id, company, trackChanges: true);
             
             return NoContent(); 

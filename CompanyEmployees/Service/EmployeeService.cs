@@ -55,6 +55,9 @@ namespace Service
         /* Obtener todos los empleados de una compañia */
         public async Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
         {
+            if (!employeeParameters.ValidAgeRange)
+                throw new MaxAgeRangeBadRequestException();
+
             //var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
 
             //if (company is null)

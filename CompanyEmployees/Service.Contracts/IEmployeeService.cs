@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entities.Models;
 using Shared.DataTransferObjects;
+using Shared.RequestFeatures;
 
 namespace Service.Contracts
 {
@@ -17,7 +18,7 @@ namespace Service.Contracts
         Task<EmployeeDto> GetEmployeeAsync(Guid employeeId, bool trackChanges);
 
         /* Obtener todos los empleados de una compañia */
-        Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId, bool trackChanges);
+        Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges);
 
         /* Obtener un empleado especifico por compañia */
         Task<EmployeeDto> GetEmployeeByCompanyAsync(Guid companyId, Guid id, bool trackChanges);

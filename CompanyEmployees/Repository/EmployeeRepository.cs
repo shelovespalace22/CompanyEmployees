@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Contracts;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Shared.RequestFeatures;
 
 namespace Repository
 {
@@ -19,20 +20,43 @@ namespace Repository
 
         /* Operaciones Asincronas */
 
+        /* Obtener todos los Empleados */
         public async Task<IEnumerable<Employee>> GetAllEmployeesAsync(bool trackChanges) =>
             await FindAll(trackChanges)
             .OrderBy(e => e.Name)
             .ToListAsync();
 
+        /* Obteenr Empleado por Id */
         public async Task<Employee> GetEmployeeAsync(Guid employeeId, bool trackChanges) =>
             await FindByCondition(e => e.Id.Equals(employeeId), trackChanges)
             .SingleOrDefaultAsync();
 
-        public async Task<IEnumerable<Employee>> GetEmployeesAsync(Guid companyId, bool trackChanges) =>
-            await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-            .OrderBy(e => e.Name)
-            .ToListAsync();
+        /* Obtener todos los Empleados de una Compañia */
+        public async Task<PagedList<Employee>> GetEmployeesAsync(Guid companyId,  EmployeeParameters employeeParameters, bool trackChanges)
+        {
+            var employees = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+                .OrderBy(e => e.Name)
+                .Skip((employeeParameters.PageNumber - 1) * employeeParameters.PageSize)
+                .Take(employeeParameters.PageSize)
+                .ToListAsync();
 
+            var count = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges).CountAsync();
+
+            return new PagedList<Employee>(employees, count, employeeParameters.PageNumber, employeeParameters.PageSize);
+
+            //return PagedList<Employee>
+            //    .ToPagedList(employees, employeeParameters.PageNumber, employeeParameters.PageSize);
+        }
+
+        /* CÓDIGO OBSOLETO */
+
+            //await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+            //.OrderBy(e => e.Name)
+            //.Skip((employeeParameters.PageNumber - 1) * employeeParameters.PageSize)
+            //.Take(employeeParameters.PageSize)
+            //.ToListAsync();
+
+        /* Obtener un Empleado especifico por Compañia */
         public async Task<Employee> GetEmployeeByCompanyAsync(Guid companyId, Guid id, bool trackChanges) =>
             await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id.Equals(id), trackChanges)
             .SingleOrDefaultAsync();

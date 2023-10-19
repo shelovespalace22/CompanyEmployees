@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -135,14 +136,16 @@ namespace Service
         /* Obtener compañia para PATCH */
         public async Task<(CompanyForUpdateDto companyToPatch, Company companyEntity)> GetCompanyForPatchAsync(Guid id, bool trackChanges)
         {
-            var companyEntity = await _repository.Company.GetCompanyAsync(id, trackChanges);
+            //var companyEntity = await _repository.Company.GetCompanyAsync(id, trackChanges);
 
-            if (companyEntity is null)
-                throw new CompanyNotFoundException(id);
+            //if (companyEntity is null)
+            //    throw new CompanyNotFoundException(id);
 
-            var companyToPatch = _mapper.Map<CompanyForUpdateDto>(companyEntity);
+            var company = await GetCompanyAndCheckIfItExists(id, trackChanges);
 
-            return (companyToPatch, companyEntity);
+            var companyToPatch = _mapper.Map<CompanyForUpdateDto>(company);
+
+            return (companyToPatch: companyToPatch, companyEntity: company);
         }
 
         /* Actualizar compañia por PATCH */

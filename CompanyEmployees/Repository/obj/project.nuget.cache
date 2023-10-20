@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N2b9hamcu128DOIfDZ3whfyCo69fkZUgO/EzQy/NWkE+GQwKOpj/v/C7xEY3kyjR3/DW4IZYKLn3apiGCtzBxA==",
+  "dgSpecHash": "Nx9SD+9zqRKVq00rgS0W5pH3/KZddvBxQZEwoJ2EBfD2/3ihVf2tNZiKKLZh6BUtmC2AbJq8324uyMMA7fXPqA==",
   "success": true,
   "projectFilePath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\MI PC\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512"
   ],
   "logs": []
 }

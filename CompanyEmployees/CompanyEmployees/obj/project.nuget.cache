@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8MZc6eJwvQLGYjwzi7OQimpBq9psdlKz7ABS7hvsQBmJvxB1uDNHP/43I/JC/57PTB9HetOqH4pCzD4co6RhKQ==",
+  "dgSpecHash": "Q3XbR7tL04u17BSaO4BFY3/ro9jxFWMOUSUY3ztto0ZM5RzLr+Bl9L4WRBzbFCeZheIErXtKQAQrOPJ8RWSqYg==",
   "success": true,
   "projectFilePath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -86,6 +86,7 @@
     "C:\\Users\\MI PC\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.21.0\\system.identitymodel.tokens.jwt.6.21.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\MI PC\\.nuget\\packages\\system.linq.dynamic.core\\1.3.5\\system.linq.dynamic.core.1.3.5.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

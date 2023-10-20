@@ -200,3 +200,4 @@ C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Co
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\CompanyEmployees.genruntimeconfig.cache
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\ref\CompanyEmployees.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll

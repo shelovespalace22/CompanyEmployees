@@ -57,7 +57,7 @@ namespace Service
         }
 
         /* Obtener todos los empleados de una compañia */
-        public async Task<(IEnumerable</* EmployeeDto */ExpandoObject> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
+        public async Task<(IEnumerable</* EmployeeDto *//*ExpandoObject*/ Entity> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
         {
             if (!employeeParameters.ValidAgeRange)
                 throw new MaxAgeRangeBadRequestException();

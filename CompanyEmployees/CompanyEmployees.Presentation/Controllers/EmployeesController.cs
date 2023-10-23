@@ -44,18 +44,17 @@ namespace CompanyEmployees.Presentation.Controllers
 
         /* Obtener todos los empleados de una compañia */
         [HttpGet]
-        [HttpHead]
+        [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetEmployeesForCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
-            var pagedResult = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+            var linkParams = new LinkParameters(employeeParameters, HttpContext);
 
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
+            var result = await _service.EmployeeService.GetEmployeesAsync(companyId, linkParams, trackChanges: false);
 
-            return Ok(pagedResult.employees);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(result.metaData));
 
-            //var employees = await _service.EmployeeService.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+            return result.linkResponse.Haslinks ? Ok(result.linkResponse.LinkedEntities) : Ok(result.linkResponse.ShapedEntities);
 
-            //return Ok(employees);
         }
 
         /* Obtener un empleado especifico por compañia */

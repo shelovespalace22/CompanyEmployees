@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Contracts;
 using Entities.Exceptions;
+using Entities.LinkModels;
 using Entities.Models;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -23,14 +24,17 @@ namespace Service
 
         private readonly IMapper _mapper;
 
-        private readonly IDataShaper<EmployeeDto> _dataShaper;
+        //private readonly IDataShaper<EmployeeDto> _dataShaper;
 
-        public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
+        private readonly IEmployeeLinks _employeeLinks;
+
+        public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, /*IDataShaper<EmployeeDto> dataShaper*/ IEmployeeLinks employeeLinks)
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
-            _dataShaper = dataShaper;
+            //_dataShaper = dataShaper;
+            _employeeLinks = employeeLinks;
         }
 
         /* Obtener todos los empleados */
@@ -57,31 +61,20 @@ namespace Service
         }
 
         /* Obtener todos los empleados de una compañia */
-        public async Task<(IEnumerable</* EmployeeDto *//*ExpandoObject*/ Entity> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync(Guid companyId, LinkParameters linkParameters, bool trackChanges)
         {
-            if (!employeeParameters.ValidAgeRange)
+            if (!linkParameters.EmployeeParameters.ValidAgeRange)
                 throw new MaxAgeRangeBadRequestException();
-
-            //var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
-
-            //if (company is null)
-            //    throw new CompanyNotFoundException(companyId);
 
             await CheckIfCompanyExists(companyId, trackChanges);
 
-            //var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
-
-            //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
-
-            //return employeesDto;
-
-            var employeesWithMetaData = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
+            var employeesWithMetaData = await _repository.Employee.GetEmployeesAsync(companyId, linkParameters.EmployeeParameters, trackChanges);
 
             var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
 
-            var shapedData = _dataShaper.ShapeData(employeesDto, employeeParameters.Fields);
+            var links = _employeeLinks.TryGenerateLinks(employeesDto, linkParameters.EmployeeParameters.Fields, companyId, linkParameters.Context);
 
-            return (employees: shapedData, metaData: employeesWithMetaData.MetaData);
+            return (linkResponse: links, metaData: employeesWithMetaData.MetaData);
 
             //return (employees: employeesDto, metaData: employeesWithMetaData.MetaData);
 

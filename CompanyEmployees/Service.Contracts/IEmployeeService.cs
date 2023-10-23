@@ -4,6 +4,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.LinkModels;
 using Entities.Models;
 using Shared.DataTransferObjects;
 using Shared.RequestFeatures;
@@ -19,7 +20,7 @@ namespace Service.Contracts
         Task<EmployeeDto> GetEmployeeAsync(Guid employeeId, bool trackChanges);
 
         /* Obtener todos los empleados de una compañia */
-        Task<(IEnumerable</*EmployeeDto*/ /*ExpandoObject*/ Entity> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync(Guid companyId, LinkParameters linkParameters, bool trackChanges);
 
         /* Obtener un empleado especifico por compañia */
         Task<EmployeeDto> GetEmployeeByCompanyAsync(Guid companyId, Guid id, bool trackChanges);

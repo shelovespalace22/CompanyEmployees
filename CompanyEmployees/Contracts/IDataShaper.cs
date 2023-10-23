@@ -10,8 +10,8 @@ namespace Contracts
 {
     public interface IDataShaper<T>
     {
-        IEnumerable</*ExpandoObject*/ Entity> ShapeData(IEnumerable<T> entities, string fieldsString);
+        IEnumerable</*ExpandoObject*/ /*Entity*/  ShapedEntity> ShapeData(IEnumerable<T> entities, string fieldsString);
 
-        /*ExpandoObject*/ Entity ShapeData(T entity, string fieldsString);
+        /*ExpandoObject*/ /*Entity*/ ShapedEntity ShapeData(T entity, string fieldsString);
     }
 }

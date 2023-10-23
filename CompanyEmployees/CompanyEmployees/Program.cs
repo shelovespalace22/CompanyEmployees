@@ -8,6 +8,7 @@ using Microsoft.Extensions.Options;
 using CompanyEmployees.Presentation.ActionFilters;
 using Service.DataShaping;
 using Shared.DataTransferObjects;
+using CompanyEmployees.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,9 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+
 
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
     new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
@@ -39,6 +43,7 @@ builder.Services.AddControllers(config => {
     .AddCustomCSVFormatter()
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
+builder.Services.AddCustomMediaTypes();
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

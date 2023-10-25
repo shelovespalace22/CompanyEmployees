@@ -24,8 +24,7 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<ValidationFilterAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
-builder.Services.AddScoped<ValidateMediaTypeAttribute>();
-builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+
 
 
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
@@ -44,6 +43,8 @@ builder.Services.AddControllers(config => {
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
 
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

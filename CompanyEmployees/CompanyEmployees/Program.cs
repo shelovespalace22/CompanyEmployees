@@ -9,6 +9,7 @@ using CompanyEmployees.Presentation.ActionFilters;
 using Service.DataShaping;
 using Shared.DataTransferObjects;
 using CompanyEmployees.Utility;
+using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +28,9 @@ builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
-
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions(); 
+builder.Services.AddHttpContextAccessor();
 
 
 NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() =>
@@ -95,6 +98,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
     ForwardedHeaders = ForwardedHeaders.All 
 });
 
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 
 app.UseResponseCaching();

@@ -13,9 +13,7 @@ namespace Entities.LinkModels
         public string? Method { get; set; }
 
         public Link()
-        {
-            
-        }
+        { }
 
         public Link(string href, string rel, string method)
         {

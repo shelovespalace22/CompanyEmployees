@@ -202,3 +202,4 @@ C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Co
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\obj\Debug\net7.0\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Marvin.Cache.Headers.dll

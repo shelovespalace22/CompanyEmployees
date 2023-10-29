@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lx1rtSxTwqeKAZbkOJHYnyPSpRr2rSDy6zv4eRqd/lSMw00YXziasU+ehu326ZlFw2aIMgsyEDlT1QfZ5+ea6w==",
+  "dgSpecHash": "kBtrqJhvggl2C1tTbVS9sU6/H8S7xtnaph5ft8n1H51uOKmqiD2Kn8rdEpF46lTq/Kfm4Jnf3VqAaSxl5NUPJA==",
   "success": true,
   "projectFilePath": "F:\\Miguel\\SENA\\V Trimestre\\Vladi\\Web Api RestFul\\CompanyEmployees\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MI PC\\.nuget\\packages\\marvin.cache.headers\\6.1.0\\marvin.cache.headers.6.1.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\MI PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

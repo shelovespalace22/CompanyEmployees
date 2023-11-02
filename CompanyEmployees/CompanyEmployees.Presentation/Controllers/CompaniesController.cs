@@ -8,6 +8,7 @@ using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Entities.Models;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
@@ -27,6 +28,7 @@ namespace CompanyEmployees.Presentation.Controllers
             _service = service;
 
         [HttpGet(Name = "GetCompanies")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetCompanies()
         {
             //throw new Exception("Exception");

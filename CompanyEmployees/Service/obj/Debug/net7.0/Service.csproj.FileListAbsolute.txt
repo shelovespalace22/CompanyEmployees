@@ -1,24 +1,3 @@
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.deps.json
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\refint\Service.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\ref\Service.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.deps.json
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\bin\Debug\net7.0\Service.pdb
@@ -40,3 +19,24 @@ C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Se
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\refint\Service.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\Service.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Service\obj\Debug\net7.0\ref\Service.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.deps.json
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Service.Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Entities.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\bin\Debug\net7.0\Shared.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\refint\Service.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\Service.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Service\obj\Debug\net7.0\ref\Service.dll

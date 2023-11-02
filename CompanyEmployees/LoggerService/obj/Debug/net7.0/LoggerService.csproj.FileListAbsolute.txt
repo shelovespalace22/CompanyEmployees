@@ -1,20 +1,3 @@
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfo.cs
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CoreCompileInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CopyComplete
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.pdb
@@ -32,5 +15,22 @@ C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Lo
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\LoggerService.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Shared.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Entities.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\bin\Debug\net7.0\Shared.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfo.cs
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CoreCompileInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CopyComplete
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\LoggerService.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll

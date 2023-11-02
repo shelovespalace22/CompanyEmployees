@@ -1,20 +1,3 @@
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.deps.json
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Entities.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Entities.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\refint\Repository.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.pdb
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\ref\Repository.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Contracts.dll
-F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Contracts.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.deps.json
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.pdb
@@ -32,5 +15,22 @@ C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Re
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\obj\Debug\net7.0\refint\Repository.dll
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.pdb
 C:\Users\Aprendiz\Documents\Miguel\Proyecto\CompanyEmployees\CompanyEmployees\Repository\obj\Debug\net7.0\ref\Repository.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.deps.json
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Repository.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Contracts.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Entities.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Shared.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Contracts.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Entities.pdb
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\bin\Debug\net7.0\Shared.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.csproj.CopyComplete
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\refint\Repository.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\Repository.pdb
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\Repository\obj\Debug\net7.0\ref\Repository.dll

@@ -211,3 +211,4 @@ F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmploye
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Miguel\SENA\V Trimestre\Vladi\Web Api RestFul\CompanyEmployees\CompanyEmployees\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
